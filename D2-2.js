@@ -6,12 +6,7 @@
 */
 
 let isMale = false;
-let gender;
-if(isMale){
-    gender = "Male";
-}else{
-    gender = "Female"
-}
+let gender = isMale? "Male" : "Female";
 console.log("\n"+gender);
 
 /*EX 2

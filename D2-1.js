@@ -92,7 +92,7 @@ if(name1.toLowerCase() === name2.toLowerCase())
  Write the code to print the literal value of x (ex.: if x is 1, it should print "one", if x is 5 it should print "five" etc.).
 */
 console.log("\n");
-x = 4; // x cannot be declared again as it was declared previously
+x = 7; // x cannot be declared again as it was declared previously
 if(x === 0){
     console.log("Zero");
 }else if(x===1){
@@ -121,10 +121,5 @@ if(x === 0){
  [Extra] Assign a value to a variable using a ternary operator (this topic has not been covered during lesson yet,
  try to search it by yourself, tomorrow morning we'll discuss it together!)
 */
-let ternaryOperator;
-if(x === 4){
-    ternaryOperator = "It works!";
-}else{
-    ternaryOperator = "It "
-}
+let ternaryOperator = x ? "It works" : "It doesn't work";
 console.log("\n"+ternaryOperator)
