@@ -12,7 +12,7 @@ ASSIGNMENT RULES
  Enumerate and describe the main datatypes in JavaScript. Try to explain the concepts as you were speaking to a 12 years old.
 */
 
-let typeUndefined = undefined;
+let typeUndefined;
 console.log("\nIt is an empty value that was not preset by developer. "+typeUndefined);
 
 let typeNull = null;
