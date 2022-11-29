@@ -13,25 +13,25 @@ ASSIGNMENT RULES
 */
 
 let typeUndefined = undefined;
-console.log("\nIt is an empty value that was not preset by developer.");
+console.log("\nIt is an empty value that was not preset by developer. "+typeUndefined);
 
 let typeNull = null;
-console.log("\nA type that has no value. However unlike undefined, null was set by the developer");
+console.log("\nA type that has no value. However unlike undefined, null was set by the developer. "+typeNull);
 
 let typeNumber = 24;
-console.log("\nIt's a number. Only goes up to 2^56 and down to -2^56");
+console.log("\nIt's a number. Only goes up to 2^56 and down to -2^56. "+typeNumber);
 
 let typeBigInt = Infinity;
-console.log("\nAnything bigger than typeNumber is a BigInt");
+console.log("\nAnything bigger than typeNumber is a BigInt. "+typeBigInt);
 
 
 let typeString = "Word";
-console.log("\nIt is a value that consists of characters. For example most popular 'First code', Hello World only consists of one string");
+console.log("\nIt is a value that consists of characters. For example most popular 'First code', Hello World only consists of one string. "+typeString);
 
 let typeBooleanT = true;
 let typeBooleanF = false;
 
-console.log("\nUses variables to answer questions that only require Yes/True or No/False");
+console.log("\nUses variables to answer questions that only require Yes/True or No/False. "+typeBooleanT+" or "+typeBooleanF);
 
 
 /* EXERCISE 2
