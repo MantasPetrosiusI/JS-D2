@@ -95,8 +95,10 @@ if(isItLong1.length > isItLong2.length){
  Write a piece of code for checking if a given value is a integer or not.
 */
 
-if(typeof isItLong1 === typeof 15){
-    console.log("Type of "+isItLong1+" is integer.");
+if(Number.isInteger(isItLong1)){
+    console.log(isItLong1+" is integer.");
+}else{
+    console.log(isItLong1+" is not an integer.");
 }
 
 /*EX 8
